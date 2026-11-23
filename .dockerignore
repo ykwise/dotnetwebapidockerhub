@@ -1,0 +1,28 @@
+# Secrets
+.env
+*.env
+!.env.example
+
+# Build output
+**/bin/
+**/obj/
+**/out/
+**/publish/
+
+# VCS / editors / CI
+.git/
+.gitignore
+.github/
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Docs & misc
+README.md
+LICENSE
+**/*.md
+!README.md
+Dockerfile
+.dockerignore
